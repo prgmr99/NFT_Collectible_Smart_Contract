@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+We will write a smart contract that will allow anyone to mint an NFT from our collection by paying gas and a price that we’ve set for each NFT piece.
